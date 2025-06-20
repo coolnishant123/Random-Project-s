@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <table width="100%" height="50">
+            <thead>
+                <tr align="center">
+
+                    <td><nav><a href="index.html">Home</a></a></nav></td>
+                    <td><nav><a href="">Audio</a></nav></td>
+                    <td><nav><a href="">Video</a></nav></td>
+                </tr>
+            </thead>
+        </table>
+    </header>
+
+    <main>
+
+        <h1 align="center">Media Files</h1>
+        <p align="center"><strong>Stream your favorite audio and video files seamlessly. Enjoy a simple, responsive media player experience across all your devices.</strong></p>
+    <br>
+    <br>
+        <h2 align="center"> Audio</h2>
+        <table width="100%" height="70">
+            <thead>
+        <tr>
+<td><audio src="random_tone_1.mp3" controls></audio></td>
+<td><audio src="random_tone_2.mp3" controls></audio></td>
+<td><audio src="random_tone_3.mp3" controls></audio></td>
+<td><audio src="random_tone_4.mp3" controls></audio></td>
+<td><audio src="random_tone_5.mp3" controls></audio></td>
+        </tr>
+    </thead>
+    </table>
+
+    <table width="100%" height="70">
+        <thead>
+    <tr align="center">
+<td>Audio 1</td>
+<td>Audio 2</td>
+<td>Audio 3 </td>
+<td>Audio 4 </td>
+<td>Audio 5 </td>
+
+<table width="100%">
+    <br>
+    <br>
+    <h2 align="center">Video</h2>
+    <thead>
+        <tr>
+            <td> <video src="random_video_1.mp4 " controls></video></td>
+            <td> <video src="random_video_2.mp4" controls></video></td>
+            <td> <video src="random_video_3.mp4" controls></video></td>
+            <td> <video src="random_video_4.mp4" controls></video></td>
+            <td> <video src="random_video_5.mp4" controls></video></td>
+        </tr>
+    </thead>
+</table>
+
+
+</main>
+<table width="100%" height="70">
+    <thead>
+<tr align="center">
+<td>Video 1</td>
+<td>Video 2</td>
+<td>Video 3 </td>
+<td>Video 4 </td>
+<td>Video 5 </td>
+
+
+
+</body>
+</html>
