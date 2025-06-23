@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+    <h1 >
+        Welcome To Cravemonger FoodCon 2025
+    </h1><br>
+    <h3>The Ultimate Food Experience</h3>
+</header>
+</div>
+
+<div>
+    <table >
+        <thead>
+            <tr>
+                
+                <nav><td><strong>Home</strong></td></nav>
+                <nav> <td><strong>Schedule</strong></td></nav>
+                <nav> <td><strong>Food Stalls</strong></td></nav>
+                <nav> <td><strong>Contact Us</strong></td></nav>
+        </tr>
+        </thead>
+    </table>
+</div>
+
+<div>
+    <section class="container">
+        <h2>About The Event</h2>
+        <h3>Cravemonger is a vibrant FoodConn Festival celebrating culinary passion and indulgence. From street eats to gourmet delights, we unite foodies, chefs, and cultures under one roof for an unforgettable journey of taste, flavor, and delicious discovery.
+        </h3>
+
+
+    </section>
+</div>
+<br>
+
+<section class="container2">
+    <h2>Event Schedule</h2>
+    <table id="table2" border="2" height="800px">
+        
+        <thead>
+
+           
+            
+                <tr id="tr1">
+                <td>Name</td>
+                <td>Session</td>
+                <td>Contest</td>
+            </tr>
+        
+            <tr>
+                <td>9:00 a.m</td>
+                <td>Opening Ceremony</td>
+                <td>Cravemonger</td>
+            </tr>
+            
+            <tr id="tr3">
+                <td>10:00 a.m</td>
+                <td>Understanding Flavours/td>
+                <td>Swiggy</td>
+            </tr>
+            <tr>
+                <td>12:00 p.m</td>
+                <td>Swad Ka Zaika/td>
+                <td>Zomato</td>
+            </tr>
+        </thead>
+
+    </table>
+</section>
+
+    
+</body>
+</html>
