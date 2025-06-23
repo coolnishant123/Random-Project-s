@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill The Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Div>
+        <H1>Survery Form</H1>
+    </Div>
+    <form action="" method="get">
+    <!-- Form -->
+    <div>
+        <label for="Name"><strong>Name</strong></label><br><br>
+<input type="text"id="Name" name="Name" placeholder="Enter your name" required>
+ </div>
+ 
+<br><br>
+<div>
+    <label for="email ID"><strong>Email ID</strong></label><br><br>
+    <input type="email" id="email ID" name="email ID" placeholder="Enter your email" required>
+    
+</div>
+<br><br>
+<div>
+    <label for="age"><strong>Age</strong></label><br><br>
+    <input type="number" value="age" name="age" placeholder="Enter your age" id="age" required>
+</div>
+<br><br>
+<div>
+    <label for="role"><strong>Which option best describes you</strong></label><br><br>
+    <select name="role" id="role"required>
+    <option value="student">Student</option>
+    <option value="working professional">Working Professional</option>
+    <option value="businessman">Businessman</option>
+    <option value="Other">Other</option>
+</select>
+</div>
+<br><br>
+
+<div>
+    <h4>Would you recommend Cravemonger to a friend?</h4>
+<input type="radio" name="recommend" id="yes"required value="yes" >
+<label for="yes">Yes</label><br>
+<input type="radio" name="recommend" id="No"required value="No">
+<label for="No">No</label><br>
+<input type="radio" name="recommend" id="Maybe"required value="Maybe">
+<label for="Maybe">Maybe</label><br>
+</div>
+
+<br><br>
+<div>
+    <h4>Languages and Frameworks known</h4>
+    <input type="checkbox" name="language" id="html" value="html" >
+    <label for="html">HTML</label><br>
+    <input type="checkbox" name="language" id="css" value="css" >
+    <label for="css">Css</label><br>
+    <input type="checkbox" name="language" id="javascript" value="javascript" >
+    <label for="javascript">Javascript</label><br>
+    <input type="checkbox" name="language" id="react" value="react" >
+    <label for="react">React</label><br>
+    <input type="checkbox" name="language" id="node JS" value="node JS" >
+    <label for="node JS">Node JS</label><br>
+    <input type="checkbox" name="language" id="angular" value="angular" >
+    <label for="angular">Angular</label><br>
+   </div>
+   <br><br>
+   
+   <div>
+    <label for="any other comments"><strong>Any other comments or suggestions</strong></label><br><br>
+    <textarea  name="any other comments" id="any other comments" placeholder="write your comment here...."></textarea>
+<br><br>
+    <div>
+    <button>Submit</button>
+</div>
+
+</form>
+</body>
+</html>
