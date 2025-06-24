@@ -1,0 +1,10 @@
+img{
+    width: 150px; height: 50px;
+}
+button{
+    background-color:  rgb(232, 228, 228);
+}
+
+img{
+    width:max-content
+}

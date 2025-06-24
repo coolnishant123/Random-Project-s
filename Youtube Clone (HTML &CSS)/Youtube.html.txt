@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td><ul>
+                    <li>Home</li>
+                    <li>Videos</li>
+                    <li>Trending</li>
+                </ul></td>
+                <td><img src="1727611626_logo-youtube-png.jpg" alt=""></td>
+            </tr>
+           
+        </table>
+    </div>
+    <div>
+        <input type="text" placeholder="Search Youtube">
+        <button>🔍</button>
+    </div>
+  <br>
+  <table>
+    <tr>
+        <td ><button>⬛</button></td>
+        <td><button>📤</button></td>
+        <td><button>🔔</button></td>
+    </tr>
+  </table>
+  
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Geq5b0BHjE0?si=7vfAXcu2Cpiv0q29&amp;start=7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div>
+    <h2><strong>Ghost Of Tshushima Gameplay</strong></h2>
+<button>👍 311k</button>
+<button>👎 2k</button>
+<button>📤</button><br><br>
+<img src="Capture.PNG" alt="subscribe">
+
+  </div>
+  <div>
+    <p>This gameplay is about ghost of tushima <br> and of Jin Sakai of how he won against Mongols <a href="#">show more</a></p>
+     </div>
+     <br>
+     <p>Up Next</p>
+<a href="#">Autoplay</a>
+<div>
+    <table>
+        <tr>
+            <td ><iframe width="560" height="315" src="https://www.youtube.com/embed/nkaAJYfRDVk?si=zKA3_Xi6duk8tML0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td ><iframe width="560" height="315" src="https://www.youtube.com/embed/BT02Ayty4RI?si=PeHQZUPP_dCkfU7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+            <td ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HdixTuRXfwA?si=Dvo2i1kR9NJeVq9m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
