@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Explorer</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+           
+            <table width="450%">
+            <td> <img src="Dynamic Logo with Spacecraft and Galactic Background (1).png" alt="my Spacecraft" ></td>
+            </table>
+            <ul>
+                <li> <strong>Home</strong></li><br>
+                <li><strong>Adventure &#9660;</strong></li><br>
+                <li> <strong>Featured Products</strong></li>
+            </ul>
+        </header>
+    </div>
+    <button class="top-right-btn">Sign Up</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+    <h1><strong>Revealing the <br>Treasures Of the <br> Universe</strong></h1>
+    </div>
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td><button >Get Started</button></td>
+                <td><button>Watch The Video ▶️</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
