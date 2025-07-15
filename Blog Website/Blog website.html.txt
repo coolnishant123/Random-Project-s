@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website - cravemonger</title>
+    <style>
+.nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: orange;
+}
+.blog-card {
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+ 
+}
+h2{
+    text-align: center;
+}
+.blog-table{
+   text-align: center;
+   width: 1000px;
+   display: grid;
+   height: fit-content;
+   border-style: dashed;
+   border-color: red;
+   background-color: aliceblue;
+}
+th{
+    color: blue;
+}
+tr{
+   color: orange;
+}
+.table-h1{
+    text-align: center;
+   color: green;
+}
+.form1{
+    text-align: center;
+  width: 1000px;
+  display:grid
+}
+button{
+    background-color: green;
+    
+}
+    </style>
+    
+</head>
+<body>
+     <nav>
+        <ul class="nav">
+            <img src="logo-2.jpg" alt="logo" width="100px">
+            <li><a href="#">Home</a</li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+             </ul>
+    </nav>
+    <main>
+        <h1 align="center"><strong>Welcome To My Blog</strong></h1>
+        <p align="center">From the latest innovations and gadget reviews to in-depth explainers and coding tutorials, we cover the world of technology in simple, insightful articles. Whether you're a curious learner or a tech enthusiast, there's something here for you.
+
+</p>
+<div class="container">
+<div class="blog-card">
+    <h2>Iphone Is Blooming</h2>
+    <img src="683ed03c04dba3916b39c1408e5d2d8b.jpg" alt="" width="50px" align="center">
+    <p>Iphone is blooming like crazy and its features <a href="#">read more</a></p>
+
+</div>
+
+<div class="blog-card">
+    <h2>Iphone Is Blooming</h2>
+    <img src="683ed03c04dba3916b39c1408e5d2d8b.jpg" alt="" width="50px" align="center">
+    <p>Iphone is blooming like crazy and its features <a href="#">read more</a></p>
+
+</div>
+<div class="blog-card">
+    <h2>Iphone Is Blooming</h2>
+    <img src="683ed03c04dba3916b39c1408e5d2d8b.jpg" alt="" width="50px" align="center">
+    <p>Iphone is blooming like crazy and its features <a href="#">read more</a></p>
+
+</div>
+</div>
+<h1 class="table-h1">Categories</h1>
+<div class="blog-table">
+    
+    <table>
+       <th>Technology</th>
+       <th>Science</th>
+       <th>Entertainment</th>
+       <th>Games</th>
+       <tr>
+        <td>Samsung Bubble</td>
+        <td>Testosterone Booster</td>
+        <td>New Bollywood Movies</td>
+        <td>Ghost Of Tsushima</td>
+       </tr>
+       <tr>
+        <td>Iphones are costly</td>
+        <td>CO2 Emission</td>
+        <td>Ramayana Trailer</td>
+        <td> GTA VI release postpone</td>
+       </tr>
+    </table>
+
+</div> 
+<h1 align="center">Contact Us</h1>
+
+<form method="get" action="#" class="form1">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" class="name" placeholder="First name" required><br><br>
+
+  <label for="lname">Second Name</label>
+  <input type="text" id="lname" name="lastname" class="name" placeholder="Second name" required><br><br>
+
+  <label for="phone">Phone Number</label>
+  <input type="tel" id="phone" name="phone" class="contact-number" placeholder="1234567890" required><br><br>
+
+  <label for="email">Email ID</label>
+  <input type="email" id="email" name="email" class="email" placeholder="xyz@gmail.com" required><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+        
+   
+
+    </main>
+</body>
+</html>
