@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <style>
+        body{
+            background-color: rgb(207, 201, 201);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+.box{
+    border: 2px solid rgb(22, 22, 22);
+    max-width: 1080px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    
+     box-shadow: 0 4px 115px rgba(221, 43, 96, 0.2);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav{
+    padding: 20px;
+    margin: 20px;
+    font-size: larger;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: large;
+    }
+
+ul li:hover {
+    cursor: pointer;
+    background-color: rgb(102, 95, 95)
+    
+}
+
+.img-box img{
+    width: 300px;
+    height: auto;
+     box-shadow: 0 4px 115px rgba(200, 15, 62, 0.2);
+    
+}
+.intro-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.img-box{
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+.introduction{
+    font-size: 25px;
+}
+.contactme button{
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: 
+rgb(13, 13, 13);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    margin: 10px auto;
+}
+.about h2{
+    font-size:38px;
+}
+.about p{
+    font-size: 25px;
+}
+.buttons-2 button{
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: 
+rgb(13, 13, 13);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.skills h2{
+    font-size: 34px;
+}
+.skillcon{
+     display: grid;
+    align-items: center;
+    padding: 80px 100px;
+    margin:auto;
+}
+.contact h2{
+font-size: 34px;
+}
+.contact form input{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.contactform{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    margin: 0px auto;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer1 p{
+    font-size: 20px;
+}
+
+.contact button{
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: 
+rgb(13, 13, 13);
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* Tablets and below (≤ 1024px) */
+@media (max-width: 1024px) {
+  .box {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .intro-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-container,
+  .contactform {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .skillcon {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .contact form input {
+    width: 90%;
+  }
+}
+
+/* Mobile screens (≤ 600px) */
+@media (max-width: 600px) {
+  .nav h1 {
+    font-size: 22px;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .introduction h1 {
+    font-size: 20px;
+  }
+
+  .introduction p {
+    font-size: 16px;
+  }
+
+  .about h2,
+  .skills h2,
+  .contact h2 {
+    font-size: 24px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .buttons-2 button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contact form input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .contact button {
+    width: 100%;
+  }
+
+  .footer1 p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="header">
+        <div class="nav">
+            <h1>NISHANT</h1>
+
+        </div>
+        <div class="links">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+        </div>
+
+
+<main>
+    <div class="intro-container">
+   <div class="introduction">
+    <h1>Hi, I'm Nishant !</h1>
+    <p>I am a developer with a <br> passion for creating beautiful <br>and functional websites</p>
+   <div class="contactme">
+    <button>CONTACT ME</button>
+   </div>
+</div>
+   <div class="img-box">
+    <img src="https://i.pinimg.com/736x/4a/b2/af/4ab2af26e00092ca45805920666d5a3e.jpg" alt="">
+   </div>
+   </div>
+   <div class="about-container">
+   <div class="about">
+    <h2>ABOUT</h2>
+    <P>I’m Nishant, a passionate developer and creative mind, exploring MERN stack, design, and fitness. Balancing tech, creativity, and discipline, I aim to build impactful digital experiences and inspire others.</P>
+</div>
+</div>
+<div class="skillcon">
+<div class="skills">
+    <h2>SKILLS</h2>
+</div>
+<div class="buttons-2">
+    <button>HTML</button>
+    <button>CSS</button>
+    <button>JAVASCRIPT</button>
+</div>
+</div>
+<div class="contactform">
+<div class="contact">
+    <h2>CONTACT</h2>
+    <form method="GET" action="#">
+
+        <input type="text"  id="name" name="Name" placeholder="Name"> <br>
+        <input type="email" id="Email" name="Email" placeholder="Email ID"><br>
+        <input type="text" name="message" id="Message" placeholder="Type Your Message Here">
+    <button>Submit</button>
+    </form>
+    
+</div>
+</div>
+</main>
+<footer>
+    <div class="footer1">
+       
+   <p><sup>®</sup>2025 Nishant | All Rights Reserved</p>
+  
+ 
+    </div>
+    
+</footer>
+      </div>
+    
+</body>
+</html>
