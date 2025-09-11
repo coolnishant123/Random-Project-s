@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Landing Page</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .frame{
+            width: 50vw;
+            height: auto;
+           /* border: 2px solid; */
+           margin: auto;
+        }
+        .img img{
+            width: 100%;
+           height: auto;
+           display: block;
+        }
+        
+        .box{
+            width: 50vw;
+            overflow: hidden;
+           margin: 20px auto;
+           /* border: 2px solid; */
+          position: relative;
+          
+           
+        }
+        .box h1{
+            color: black;
+      position: absolute;
+           top: 36%;
+           left: 36%;
+           color: black;
+      font-size: 3rem;
+      font-weight: 600;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    
+    
+        }
+
+        .book-now{
+        position: absolute;
+           top: 56%;
+           left: 46%;
+           background-color: orangered ;
+           padding: 10px;
+           width: 150px;
+           border-radius: 20px;
+           color: white;
+           border: none;
+           font-size: large;
+            background: linear-gradient(45deg, #ff6b6b, #f8d800);
+            cursor: pointer;
+        }
+        .main h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .places{
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .box1{
+            /* border: 2px solid black; */
+            width: 300px;
+            padding: 20px 20px;
+            margin: 20px;
+            
+        }
+        .box1 img{
+         width: 300px;
+         height: 225px;
+         
+        }
+        .box1 h2,p{
+            text-align: center;
+        }
+
+        .icons{
+            /* border: 2px solid; */
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 40px;
+        }
+
+        .choose{
+            text-align: center;
+            font-size: 22px;
+            font-weight:700;
+        
+        }
+        .icon1{
+            /* border: 2px solid; */
+            width: 150px;
+            padding: 20px 20px;
+            margin: 20px 20px;
+        }
+
+        .icon1 img{
+            padding: 20px;
+            margin: 20px auto;
+            width: 100px;
+            height: 100px;
+        }
+
+        .input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .input button{
+            background-color: orange;
+            border-radius: 10px;
+            gap: none;
+            padding: 5px;
+        }
+        .input input{
+            border-radius: 5px;
+            padding: 5px;
+            width: 250px;
+        }
+
+        /* Media Queries */
+
+/* Tablets and small desktops */
+@media (max-width: 1024px) {
+    .frame, .box {
+        width: 80vw;
+    }
+
+    .box h1 {
+        font-size: 2.5rem;
+        left: 25%;
+        top: 30%;
+    }
+
+    .book-now {
+        top: 55%;
+        left: 40%;
+    }
+
+    .places {
+        flex-wrap: wrap;
+    }
+
+    .box1 {
+        width: 45%;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .frame, .box {
+        width: 95vw;
+    }
+
+    .box h1 {
+        font-size: 1.8rem;
+        top: 25%;
+        left: 15%;
+        text-align: center;
+    }
+
+    .book-now {
+        top: 50%;
+        left: 30%;
+        width: 120px;
+        font-size: medium;
+    }
+
+    .places {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1 {
+        width: 90%;
+    }
+
+    .icons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .icon1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .input input {
+        width: 200px;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    .box h1 {
+        font-size: 1.5rem;
+        top: 20%;
+        left: 10%;
+    }
+
+    .book-now {
+        top: 45%;
+        left: 25%;
+        width: 100px;
+        padding: 8px;
+    }
+
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .input input {
+        width: 150px;
+    }
+
+    .input button {
+        font-size: small;
+        padding: 4px 8px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="frame">
+    <div class="box">
+        <div class="img">
+             
+            <img src="Travel-Bucket-List-Wallpaper-Mural-for-Wall-M.jpg" alt="">
+            
+        </div>
+       <h1>EXPLORE THE <br> WORLD WITH US</h1>
+       <button class="book-now">BOOK NOW</button>
+
+
+    </div>
+    <div class="main">
+        <h1>Popular Destinations</h1>
+<div class="places">
+   <div class="box1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBsjKizqzzVzRJJEBP259SscfhqktpvDuZqw&s" alt="">
+   <h2>Tropical Paradise</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+</div>
+
+
+ <div class="box1">
+    <img src="https://cdn.pixabay.com/photo/2022/08/03/10/36/the-german-church-7362352_640.jpg" >
+   <h2>Historical Places</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+</div>
+
+ <div class="box1">
+    <img src="https://images.pexels.com/photos/1940038/pexels-photo-1940038.jpeg?cs=srgb&dl=pexels-tobiasbjorkli-1940038.jpg&fm=jpg" >
+   <h2>Landscapes</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+</div>
+
+</div>
+
+<div class="choose">
+    <h2>Why Choose Us</h2>
+</div>
+
+<div class="icons">
+    <div class="icon1">
+        <img src="https://cdn-icons-png.flaticon.com/128/6526/6526162.png" alt="">
+        <h2>Affordable</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+
+     <div class="icon1">
+        <img src="https://cdn-icons-png.flaticon.com/128/6785/6785410.png" alt="">
+        <h2>Safe</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+
+     <div class="icon1">
+        <img src="https://cdn-icons-png.flaticon.com/128/4459/4459101.png" alt="">
+        <h2>24*7</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+<div class="footer">
+    <H2 text align="center" style="font-size: 30px;">Subscribe To Newsletter</H2>
+    <p>Get the latest travel news and offers</p>
+</div>
+    
+<div class="input">
+    <form action="">
+        <input type="email" name="email" required id="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </form>
+</div>
+
+    </div>
+</body>
+</html>
