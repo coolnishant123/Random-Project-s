@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+<div class="calculator">
+    <input type="text" readonly class="display">
+    <div class="button">
+        <button onclick="displayvalue = ''; document.querySelector('.display').value = displayvalue ;">C</button>
+        <button onclick="displayvalue = displayvalue + 1; document.querySelector('.display').value = displayvalue ;">1</button>
+        <button onclick="displayvalue = displayvalue + 2; document.querySelector('.display').value = displayvalue ;">2</button>
+        <button onclick="displayvalue = displayvalue + '+'; document.querySelector('.display').value = displayvalue ;">+</button>
+        <button onclick="displayvalue = displayvalue + 3; document.querySelector('.display').value = displayvalue ;">3</button>
+        <button onclick="displayvalue = displayvalue + 4; document.querySelector('.display').value = displayvalue ;">4</button>
+        <button onclick="displayvalue = displayvalue + '-'; document.querySelector('.display').value = displayvalue ;">-</button>
+        <button onclick="displayvalue = displayvalue + 5; document.querySelector('.display').value = displayvalue ;">5</button>
+        <button onclick="displayvalue = displayvalue + 6; document.querySelector('.display').value = displayvalue ;">6</button>
+        <button onclick="displayvalue = displayvalue + '*'; document.querySelector('.display').value = displayvalue ;">*</button>
+        <button onclick="displayvalue = displayvalue + 7; document.querySelector('.display').value = displayvalue ;">7</button>
+        <button onclick="displayvalue = displayvalue + 8; document.querySelector('.display').value = displayvalue ;">8</button>
+        <button onclick="displayvalue = displayvalue + '/'; document.querySelector('.display').value = displayvalue ;">/</button>
+        <button onclick="displayvalue= eval(displayvalue); document.querySelector('.display').value = displayvalue ;">=</button>
+        <button onclick="displayvalue = displayvalue + 9; document.querySelector('.display').value = displayvalue ;">9</button>
+        <button onclick="displayvalue = displayvalue + 0; document.querySelector('.display').value = displayvalue ;">0</button>
+        <button onclick="displayvalue = displayvalue + '.'; document.querySelector('.display').value = displayvalue ;">.</button>
+    </div>
+</div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
