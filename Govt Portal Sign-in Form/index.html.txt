@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>GOVERNMENT SMART APPLICATION PORTAL</title>
+</head>
+
+<body>
+        <header>
+                <p><strong>All Fields Are Mandatory</strong></p>
+                <!-- Personal Identity -->
+
+                <div class="personalidentity">
+                        <p><strong>1. Personal Identity</strong></p>
+
+                        <div class="form-input">
+                                <label for="username">Full Name</label>
+                                <input type="text" name="username" placeholder="Enter Your Full Name" required>
+                                <br><br>
+                        </div>
+
+                        <div class="form-input">
+
+                                <label for="Aadhar/SSN">Aadhar/SSN</label>
+                                <input type="number" name="Aadhar/ssn" placeholder="1234-5678-9012"
+                                        pattern="\d{4}-\d{4}-\d{4}" required><br><br>
+                        </div>
+
+                        <div class="form-input">
+
+                                <label for="Email">Email</label>
+                                <input type="email" name="Email" required placeholder="abc@xyz.com"><br><br>
+                        </div>
+
+                        <div class="form-input">
+
+                                <label for="Mobile No">Mobile No</label>
+                                <input type="tel" name="Mobile No" required pattern="(\+91|\+1)[0-9]{10}"><br><br>
+                        </div>
+
+
+                        <div class="form-input">
+
+                                <label for="DOB"> DOB</label>
+                                <input type="date" name="DOB" required><br>
+                        </div>
+
+                        <div class="form-input">
+
+                                <label for="Gender"> Gender </label>
+                                <div class="radio">
+
+                                        <input type="radio" name="Gender" value="Male" required>Male
+                                        <input type="radio" name="Gender" value="Female" required>Female
+                                        <input type="radio" name="Gender" value="Other" required>Other
+                                        <!-- <input type="" name="Gender" value="Other" required> -->
+                                        <br><br>
+                                </div>
+                        </div>
+
+
+                        <div class="form-input">
+
+                                <label for="password">Password</label>
+                                <input type="password" name="password" required><br><br>
+                        </div>
+
+                        <div class="form-input">
+
+                                <label for="confirm password"> Confirm Password</label>
+                                <input type="password" name="confirm password" required>
+                        </div>
+
+
+
+
+
+                </div>
+                <!-- Address Details -->
+
+                <div class="address-details">
+                        <p><strong>Address Details</Details></strong></p>
+
+                        <div class="form-input">
+                                <label for="address">Permanent Address</label>
+                                <input type="text" name="address" required>
+                        </div>
+
+                        <div class="form-input">
+
+                                <label for="state">State</label>
+
+                                <select name="State" id="State">
+
+                                        <option value="Assam">Assam</option>
+                                        <option value="Maharashtra">Maharashtra</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Gujarat">Gujarat</option>
+                                        <option value="Karnataka">Karnataka</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Mizoram">Mizoram</option>
+                                        <option value="Nagaland">Nagaland</option>
+                                        <option value="Odisha">Odisha</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                        <option value="Telangana">Telangana</option>
+                                        <option value="Tripura">Tripura</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+
+                                </select>
+
+
+                        </div>
+
+
+                        <div class="form-input">
+
+                                <label for="city">City</label>
+
+                                <select name="city" id="City">
+
+                                        <option value="Guwahati">Guwahati</option>
+                                        <option value="Mumbai">Mumbai</option>
+                                        <option value="Kolkata">Kolkata</option>
+                                        <option value="Varanasi">Varanasi</option>
+                                        <option value="Chapra">Chapra</option>
+                                        <option value="Ranchi">Ranchi</option>
+                                        <option value="Jalandhar">Jalandhar</option>
+                                        <option value="Rohtak">Rohtak</option>
+                                        <option value="Shimla">Shimla</option>
+                                        <option value="Dispur">Dispur</option>
+                                        <option value="Dibrugarh">Dibrugarh</option>
+                                        <option value="Silchar">Silchar</option>
+
+                                        <option value="Pune">Pune</option>
+                                        <option value="Nagpur">Nagpur</option>
+                                        <option value="Nashik">Nashik</option>
+
+                                        <option value="Howrah">Howrah</option>
+                                        <option value="Asansol">Asansol</option>
+                                        <option value="Siliguri">Siliguri</option>
+
+                                        <option value="Prayagraj">Prayagraj</option>
+                                        <option value="Lucknow">Lucknow</option>
+                                        <option value="Kanpur">Kanpur</option>
+                                        <option value="Noida">Noida</option>
+                                        <option value="Ghaziabad">Ghaziabad</option>
+
+                                        <option value="Patna">Patna</option>
+                                        <option value="Gaya">Gaya</option>
+                                        <option value="Muzaffarpur">Muzaffarpur</option>
+
+                                        <option value="Jamshedpur">Jamshedpur</option>
+                                        <option value="Bokaro">Bokaro</option>
+
+                                        <option value="Amritsar">Amritsar</option>
+                                        <option value="Ludhiana">Ludhiana</option>
+                                        <option value="Bathinda">Bathinda</option>
+
+                                        <option value="Gurugram">Gurugram</option>
+                                        <option value="Faridabad">Faridabad</option>
+                                        <option value="Panipat">Panipat</option>
+
+                                        <option value="Solan">Solan</option>
+                                        <option value="Mandi">Mandi</option>
+                                        <option value="Kullu">Kullu</option>
+
+                                        <option value="Jaipur">Jaipur</option>
+                                        <option value="Udaipur">Udaipur</option>
+                                        <option value="Jodhpur">Jodhpur</option>
+
+                                        <option value="Ahmedabad">Ahmedabad</option>
+                                        <option value="Surat">Surat</option>
+                                        <option value="Vadodara">Vadodara</option>
+
+                                        <option value="Indore">Indore</option>
+                                        <option value="Bhopal">Bhopal</option>
+                                        <option value="Jabalpur">Jabalpur</option>
+
+                                        <option value="Raipur">Raipur</option>
+                                        <option value="Bilaspur">Bilaspur</option>
+
+                                        <option value="Bengaluru">Bengaluru</option>
+                                        <option value="Mysuru">Mysuru</option>
+                                        <option value="Hubballi">Hubballi</option>
+
+                                        <option value="Hyderabad">Hyderabad</option>
+                                        <option value="Warangal">Warangal</option>
+
+                                        <option value="Chennai">Chennai</option>
+                                        <option value="Coimbatore">Coimbatore</option>
+                                        <option value="Madurai">Madurai</option>
+
+                                        <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                                        <option value="Kochi">Kochi</option>
+
+                                        <option value="Vijayawada">Vijayawada</option>
+                                        <option value="Visakhapatnam">Visakhapatnam</option>
+
+                                        <option value="Bhubaneswar">Bhubaneswar</option>
+                                        <option value="Cuttack">Cuttack</option>
+
+                                        <option value="Gangtok">Gangtok</option>
+
+                                        <option value="Shillong">Shillong</option>
+
+                                        <option value="Aizawl">Aizawl</option>
+
+                                        <option value="Imphal">Imphal</option>
+
+                                        <option value="Kohima">Kohima</option>
+
+                                        <option value="Agartala">Agartala</option>
+
+                                        <option value="Dehradun">Dehradun</option>
+
+                                        <option value="Itanagar">Itanagar</option>
+
+                                        <option value="Panaji">Panaji</option>
+
+                                </select>
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="form-input">
+                                <label for="pincode">Pincode</label>
+                                <input type="number" value="Pincode" required name="pincode">
+                        </div>
+
+                        <div class="form-input">
+                                <label for="country"> Country</label>
+                                <input type="text" name="country" required>
+                        </div>
+                </div>
+
+
+                <!-- Education -->
+
+                <div class="education">
+                        <p><strong>Education</strong></p>
+
+
+
+
+                        <div class="form-input">
+                                <label for="qualification">Qualification</label>
+
+                                <select name="qualification" id="qualification">
+
+                                        <option value="10th">10th</option>
+                                        <option value="12th">12th</option>
+                                        <option value="Btech">Btech</option>
+                                        <option value="Bcom">1Bcom</option>
+                                        <option value="B.arts"><B class="arts"></B></option>
+                                </select>
+                        </div>
+                        <div class="form-input">
+                                <label for="passing year">Passing year</label>
+                                <input type="number" name="passing year" pattern="(199[6-9]|20(0[0-9]|1[0-9]|2[0-2]))"
+                                        required>
+                        </div>
+
+                        <div class="form-input">
+                                <label for="college">College</label>
+                                <input type="text" name="college" required>
+                        </div>
+
+                        <div class="form-input">
+                                <label for="percentage">Percentage</label>
+                                <input type="number" name="percentage" step="0.01" min="0" max="100" value="percentage"
+                                        required>
+                        </div>
+                        <div class="form-input">
+                                <label for="marksheet">Marksheet</label>
+                                <input type="file" name="marksheet" required>
+                        </div>
+
+
+                </div>
+
+                <div class="KYC-DETAILS">
+
+                        <p><strong>KYC & Financial</strong></p>
+
+                        <div class="form-input">
+                                <label for="PAN">PAN</label>
+                                <input type="text" name="PAN" required>
+
+                        </div>
+                        <div class="form-input">
+                                <label for="bank"> Bank Account</label>
+                                <input type="number" value="bank" required name="bank">
+                        </div>
+
+
+                        <div class="form-input">
+                                <label for="IFSC">IFSC</label>
+                                <input type="text" name="IFSC" required>
+
+                        </div>
+                        <div class="form-input">
+
+
+                                <label for="annualincome">Annual Income</label>
+                                <input type="number" name="annualincome" id="incomeinput" min="0" max="10000000"
+                                        value="0" required>
+
+
+
+
+                        </div>
+
+
+                </div>
+
+
+        </header>
+
+
+</body>
+
+</html>
